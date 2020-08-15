@@ -1,0 +1,291 @@
+
+li{
+    list-style-type: none; /*리스트 앞에 점 없애기*/
+    font-size: 5vh; /*폰트 사이즈 바꾸기*/
+    display: inline; /*리스트 수평으로 만들기*/
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 40px;/* 리스트 사이 간격 조절*/
+}
+
+
+ul {
+    width: 100%;
+
+}
+
+.nav .active {
+    background-color: #8cd9b3;
+    color: white;
+}
+
+header {
+    border: solid 3px black;
+}
+
+img {
+    width: 70%;
+}
+
+
+.introduction {
+    text-decoration: none;
+    font-family: verdana;
+    font-style: italic;
+    font-weight: bold;
+    color: #CC0000;
+}
+
+.introduction:hover {
+    color: #fff;
+    background-color: #2ecc71;
+}
+
+.intoduction:active {
+    color: red;
+}
+
+.aboutme {
+    text-decoration: none;
+    font-family: verdana;
+    font-style: italic;
+    font-weight: bold;
+    color:black;
+}
+
+.aboutme:hover {
+    color: #fff;
+    background-color: #2ecc71;
+}
+
+.whatilike {
+    text-decoration: none;
+    font-family: verdana;
+    font-style: italic;
+    font-weight: bold;
+    color: #CC0000;
+}
+
+.whatilike:hover {
+    color: #fff;
+    background-color: #2ecc71;
+}
+
+.contacts {
+    text-decoration: none;
+    font-family: verdana;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+
+.contacts:hover {
+    color: #fff;
+    background-color: #2ecc71;
+}
+
+    body {
+      margin: 65px; /*밖 공백*/
+  }
+
+.lakepark {
+    text-align: center;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left:0;
+    width: 50%;
+    margin: 0;
+    
+}
+
+.living {
+    font-family: "AppleSDGothicNeoEB";
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    position: relative;
+    background: #0091fe;
+    background-size: auto;
+    border-radius: 20px; /*말풍선 둥글게*/
+    margin: auto;
+    width: 60%;
+
+}
+
+.living:after {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 145, 254, 0);
+	border-bottom-color: #0091fe;
+	border-width: 20px; /*말풍선 꼭지점 높이*/
+	margin-left: -20px;
+}
+
+.major_1 {
+    text-align: center;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    width:50%;
+    margin: auto;
+}
+
+.major_2 {
+    font-family: "AppleSDGothicNeoEB";
+    font-size: 20px;
+    color:white;
+    padding: 15px;
+    position: relative;
+    background: #0091fe;
+    background-size: auto;
+    border-radius: 20px; /*말풍선 둥글게*/
+    margin: auto;
+    width: 60%;
+}
+
+.major_2:after {
+    bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 145, 254, 0);
+	border-bottom-color: #0091fe;
+	border-width: 20px; /*말풍선 꼭지점 높이*/
+	margin-left: -20px;
+}
+
+.profile {
+    text-align: center;
+    padding-top: 30px;
+    width:55%;
+    margin: auto;
+}
+
+.nav {
+    border-bottom-style: solid 5px black;
+
+}
+
+img { display : block;
+    margin : auto;}
+
+    .sleep_1 {
+        text-align: center;
+        float: left;
+        padding-top: 20px;
+    padding-bottom: 60px;
+        width:50%;
+        margin: 0;
+        
+    }
+    
+    .sleep_2 {
+        font-family: "AppleSDGothicNeoEB";
+        font-size: 20px;
+        color:white;
+        padding: 15px;
+        position: relative;
+    background: #0091fe;
+    background-size: auto;
+    border-radius: 20px; /*말풍선 둥글게*/
+    margin: auto;
+    width: 60%;
+}
+
+.sleep_2:after {
+    bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 145, 254, 0);
+	border-bottom-color: #0091fe;
+	border-width: 20px; /*말풍선 꼭지점 높이*/
+	margin-left: -20px;
+}
+    
+    .game_1 {
+        text-align: center;
+        float: right;
+        padding-top: 20px;
+    padding-bottom: 60px;
+        width:50%;
+        margin: auto;
+    }
+    
+    .game_2 {
+        font-family: "AppleSDGothicNeoEB";
+        background-color:rgba(0, 145, 254, 0);
+        font-size: 20px;
+        color:white;
+        padding:15px;
+        position: relative;
+    background: #0091fe;
+    background-size: auto;
+    border-radius: 20px; /*말풍선 둥글게*/
+    margin: auto;
+    width: 60%;
+}
+
+.game_2:after {
+    bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgbargba(0, 145, 254, 0);
+	border-bottom-color: #0091fe;
+	border-width: 20px; /*말풍선 꼭지점 높이*/
+	margin-left: -20px;
+}
+
+.mail {
+    width: 25%;
+        float: left;
+        padding-top: 100px;
+        padding-bottom: 75px;
+        margin: auto;
+}
+
+.blog {
+    width: 25%;
+        float: right;
+        padding-top: 100px;
+        padding-bottom: 75px;
+        margin: auto;
+}
+
+.github {
+    width: 25%;
+        float: center;
+        padding-top: 100px;
+        padding-bottom: 75px;
+        margin: auto;
+}
+
+.click {
+    text-align: center;
+    font-family : Verdana;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
